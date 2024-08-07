@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    background-image: url('image1.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+
+    max-height: 80vh; /* Limit the maximum height */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    text-align: center;
+    color: #343a40;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#userDetails {
+    margin-bottom: 20px;
+}
+
+.user-details-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-details-section h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.user-detail {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.user-detail .label {
+    font-weight: 500;
+    color: #495057;
+}
+
+.user-detail .value {
+    color: #212529;
+    margin-top: 5px;
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
